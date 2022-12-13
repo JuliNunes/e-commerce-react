@@ -59,6 +59,12 @@ const products = [
 		valor: 15.99,
 		imgURL: 'https://images.unsplash.com/photo-1628891439478-c613e85af7d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
 	},
+	{
+		id: 4,
+		nome: 'Papelaria Corporativa',
+		valor: 40.99,
+		imgURL: 'https://www.printi.com.br/blog/wp-content/uploads/sites/default/files/papelaria-corporativa-vendedores.png',
+	},
 ];
 
 export default products;
