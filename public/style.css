@@ -1,0 +1,15 @@
+body,
+html {
+	overflow-x: hidden;
+}
+
+.logo {
+	width: 10rem;
+	margin-top: -3rem;
+}
+
+.img-produto {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+}
