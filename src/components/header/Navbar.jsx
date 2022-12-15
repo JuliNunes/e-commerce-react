@@ -1,17 +1,17 @@
+import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 function Navbar() {
 	return (
-		<nav className='d-flex flex-row bg-primary justify-content-center gap-3 mt-5'>
+		<nav className='navbar navbar-expand-sm d-flex flex-row bg-primary justify-content-center gap-3'>
 			<Dropdown>
 				<Dropdown.Toggle variant='primary'>
 					Para Empresas e Negócios
 				</Dropdown.Toggle>
 
 				<Dropdown.Menu>
-					<Dropdown.Item>
-						Criação de arte final com logotipagem
-					</Dropdown.Item>
+					<Dropdown.Item>Criação de arte final</Dropdown.Item>
+					<Dropdown.Item>Criação gráfica</Dropdown.Item>
 				</Dropdown.Menu>
 			</Dropdown>
 
@@ -44,14 +44,36 @@ function Navbar() {
 			<Dropdown>
 				<Dropdown.Toggle variant='primary'>Copiadora</Dropdown.Toggle>
 				<Dropdown.Menu>
-					<Dropdown.Item>Xerox</Dropdown.Item>
+					<Dropdown.Item>Ampliação e Redução</Dropdown.Item>
+					<Dropdown.Item>Digitalização</Dropdown.Item>
+					<Dropdown.Item>Encadernação</Dropdown.Item>
+					<Dropdown.Item>Plastificação</Dropdown.Item>
+					<Dropdown.Item>Carimbos</Dropdown.Item>
+					<Dropdown.Item>Personalização de CD/DVD</Dropdown.Item>
 				</Dropdown.Menu>
 			</Dropdown>
 
 			<Dropdown>
 				<Dropdown.Toggle variant='primary'>Gráfica</Dropdown.Toggle>
 				<Dropdown.Menu>
-					<Dropdown.Item>pipipiopo</Dropdown.Item>
+					<Dropdown.Item>
+						Cardápios, Catálogos e Tabelas
+					</Dropdown.Item>
+					<Dropdown.Item>Cartazes</Dropdown.Item>
+					<Dropdown.Item>
+						Sacolas personalizadas em Papel
+					</Dropdown.Item>
+				</Dropdown.Menu>
+			</Dropdown>
+
+			<Dropdown>
+				<Dropdown.Toggle variant='primary'>
+					Comunicação Visual
+				</Dropdown.Toggle>
+				<Dropdown.Menu>
+					<Dropdown.Item>Rótulos, Etiquetas e Adesivos</Dropdown.Item>
+					<Dropdown.Item>Placas PVC, PS, Acrílico</Dropdown.Item>
+					<Dropdown.Item>Brindes Personalizados</Dropdown.Item>
 				</Dropdown.Menu>
 			</Dropdown>
 		</nav>
