@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
+import { Link } from 'react-router-dom';
 
 function Myaccount() {
 	return (
-		<div className='col-sm-2 pt-2 d-flex justify-content-evenly h-50'>
-			<a className='btn btn-primary'>Entrar</a>
-			<a className='btn btn-primary'>Cadastrar</a>
-		</div>
+		<StrictMode>
+			<div className='col-sm-2 pt-2 d-flex justify-content-evenly h-50'>
+				<Link to='/login' className='btn btn-primary'>
+					Entrar
+				</Link>
+				<Link to='/cadastro' className='btn btn-primary'>
+					Cadastrar
+				</Link>
+			</div>
+		</StrictMode>
 	);
 }
 
