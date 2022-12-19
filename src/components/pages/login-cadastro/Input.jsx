@@ -5,7 +5,11 @@ function Input(props) {
 		<StrictMode>
 			<fieldset className='d-flex flex-column input-login'>
 				<label>{props.label}</label>
-				<input type={props.type} placeholder={props.placeholder} />
+				<input
+					type={props.type}
+					placeholder={props.placeholder}
+					required
+				/>
 			</fieldset>
 		</StrictMode>
 	);

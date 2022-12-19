@@ -18,7 +18,7 @@ function Login() {
 						placeholder='Senha do usuário'
 					/>
 					<input
-						type='button'
+						type='submit'
 						value='Entrar'
 						className='btn btn-success mt-3'
 					/>
